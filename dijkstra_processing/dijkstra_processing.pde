@@ -1,6 +1,6 @@
 /* 
  Visualization of Dijkstra's algorithm for finding the
- shortest path between two nodes in a directed graph.
+ shortest path between two nodes in a graph.
  
  Developed and adapted from 
  http://www.baeldung.com/java-dijkstra
@@ -24,7 +24,7 @@ void setup() {
   Node nodeF = new Node("F", 105, 301);
 
   nodeA.addDestination(nodeB);
-  nodeA.addDestination(nodeC);
+  //nodeA.addDestination(nodeC);
 
   nodeB.addDestination(nodeD);
   nodeB.addDestination(nodeF);
