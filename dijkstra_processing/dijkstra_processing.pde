@@ -1,6 +1,6 @@
 /* 
  Visualization of Dijkstra's algorithm for finding the
- shortest path between two nodes in a (undirected?) graph.
+ shortest path between two nodes in a directed graph.
  
  Developed and adapted from 
  http://www.baeldung.com/java-dijkstra
@@ -45,7 +45,7 @@ void setup() {
   graph.addNode(nodeE);
   graph.addNode(nodeF);
 
-  //graph.printSet();
+  
   graph = calculateShortestPathFromSource(graph, nodeA);
   //graph.printSet();
 }
